@@ -3,12 +3,19 @@ body {
     size: 100vh;
 }
 
-.body1 {
+.body1, .header {
     background-color: #1f2937;
 }
 
 .header {
     display: flex;
+    border: 1px solid white;
+    justify-content: flex-end;
+}
+
+a {
+    padding-top: 10px;
+    padding-right: 100px;
 }
 
 h1 {
@@ -17,15 +24,39 @@ h1 {
     color: #f9faf8;
 }
 
+h2 {
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+
 h2, h1 {
     color: white;
     margin: 0;
 }
 
 a, .color {
-    color: rgb(182, 179, 179);
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 a:link {
     text-decoration: none;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    border: 0;
+}
+
+img {
+    width: 400px;;
+}
+
+.header2 {
+    padding: 50px;
+    border: 1px solid rgb(255, 242, 0);
+    
 }
