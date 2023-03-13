@@ -3,19 +3,56 @@ body {
     size: 100vh;
 }
 
-.body1, .header {
+.hero, .header {
     background-color: #1f2937;
 }
 
-.header {
+.main-nav ul {
+    margin: 1em 0 .5em;
+	text-align: center;
+}
+
+.main-nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+.main-nav a {
+    display: inline-block;
+	padding: .5em 1.5em;
+}
+
+
+.header .container {
     display: flex;
-    border: 1px solid white;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.menu {
+   margin-top: 2rem;
+   padding: 1rem 0;
+}
+
+.recipes {
+    margin: 2rem auto;
+    max-width: 1100px;
+}
+
+.drinks {
+    display: flex;
 }
 
 a {
-    padding-top: 10px;
-    padding-right: 100px;
+    padding: 10px;
 }
 
 h1 {
@@ -49,14 +86,23 @@ a:link {
     background-color: #3882f6;
     color: white;
     border: 0;
+    padding: 15px 32px;
+    border-radius: 12px;
 }
 
 img {
-    width: 400px;;
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 3px solid #3882f6;
 }
 
-.header2 {
+.intro-text {
     padding: 50px;
-    border: 1px solid rgb(255, 242, 0);
-    
+}
+
+.drink-1, .drink-2, 
+.drink-3, .drink-4 {
+    width: 33.3%;
+    padding: 10px;
 }
